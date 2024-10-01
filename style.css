@@ -1,0 +1,178 @@
+*{ /*usei a propriedade padding para ter uma a distância entre o conteúdo de um elemento e suas bordas*/
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+/* caixa grande */
+
+.container{
+    border: 1px solid rgb(179, 179, 179);
+    height: 1050px;
+    width: 70%;
+    
+}
+
+/* lado esquerdo */
+
+.left{
+    border: 2px solid rgb(0, 0, 0);
+    width: 50%; 
+    height: 100%;   
+    background-color:black;
+    float: left;
+    color: white;
+    padding: 50px;
+}
+
+/* lado direito */
+
+.right{
+    border: 2px solid rgb(255, 255, 255);
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: white;
+    padding: 80px 30px;
+}
+
+
+/* css do lado esquerdo */
+
+.profile img{
+
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 3px solid rgb(7, 177, 255);
+    display: block;
+    margin: auto;
+}
+
+.profile h2{ /*AQUI EU AJUSTEI PESO para 100, ESTILO para italic E TIPO DA FONTE para arial h2 de dentro do profile*/
+    font-style: italic;
+    font-weight: 100;
+    color: rgb(2, 255, 242);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+} /*AQUI EU AJUSTEI PESO para 100, ESTILO para italic E TIPO DA FONTE para arial h2 de dentro do profile*/
+
+.educ h2{
+    font-weight: 100;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    color: rgb(2, 255, 242);
+}
+
+.educ h3{
+    font-weight: 100;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+
+.ling h2{
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    color: rgb(2, 255, 242);
+}
+.ling p{
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-size: 17px;
+}
+.contato{
+    margin-top: 70px;
+    
+
+}
+.contato p{
+    margin-bottom: 10px;
+
+}
+
+
+/* css do lado direito */
+
+.exper{
+    margin-top: 80px;
+}
+
+.exper hr, .abili hr{
+margin: 15px ;
+margin-left: -32px;
+height: 3px;
+background-color: black;
+
+}
+
+.exper h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.exper ul li{
+    margin-top: 8px;
+    margin-bottom: 16px;
+    margin-left: 25px;
+}
+
+.abili{
+    margin-top: 100px;
+
+}
+
+.abili h3{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+
+.abili ul li{
+    margin-left: 25px;
+}
+
+.abili ul{
+    margin-bottom: 35px;
+}
+
+i{
+    margin-right: 25px;
+    color: white;
+    width: 10px;
+    margin-bottom: 10px;
+    font-size: 19px;
+}
+.bar{ /*usei a propriedade border para criar uma borda na minha barra*/
+    height: 16px;
+    border: 1px solid;
+    width: 30%; 
+    margin-left: -5px;
+    border-radius: 16px;
+}
+.progess-100{ /*Usei a propriedade margin para ajustar de onde a cor iria começar */
+    background-color: rgb(0, 255, 191);
+    height: 100%;
+    width: 100%;
+    border-radius: 16px;
+    margin: 0 0;
+}
+.progess-25{
+    background-color: rgb(0, 255, 191);
+    height: 100%;
+    width: 25%;
+    border-radius: 16px;
+    margin: 0 0;
+}
